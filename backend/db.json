@@ -1,0 +1,86 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "SDV Congo",
+      "type": "distributeur",
+      "contact": "M. Dupont",
+      "email": "dupont@sdv.cg"
+    },
+    {
+      "id": 2,
+      "name": "Pharmacie la Grâce",
+      "type": "pharmacie",
+      "contact": "Mme. Kabongo",
+      "email": "kabongo@grace.cg"
+    },
+    {
+      "id": 3,
+      "name": "UNICEF BZ",
+      "type": "ong",
+      "contact": "M. Mukuna",
+      "email": "mukuna@unicef.org"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "client_id": 1,
+      "title": "Enquête prix marchés Brazzaville",
+      "type": "enquête",
+      "status": "completed",
+      "budget": 1500000,
+      "deliverables": "Rapport + Dashboard"
+    },
+    {
+      "id": 2,
+      "client_id": 2,
+      "title": "Dashboard stocks pharmacie",
+      "type": "dashboard",
+      "status": "ongoing",
+      "budget": 500000,
+      "deliverables": "Tableau de bord Power BI"
+    },
+    {
+      "id": 3,
+      "client_id": 3,
+      "title": "Suivi épidémiologique",
+      "type": "enquête",
+      "status": "pending",
+      "budget": 3000000,
+      "deliverables": "Rapport M&E"
+    }
+  ],
+  "surveys": [
+    {
+      "id": 1,
+      "project_id": 1,
+      "title": "Prix 20 produits",
+      "responses": 150,
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "project_id": 3,
+      "title": "Enquête santé maternelle",
+      "responses": 0,
+      "status": "pending"
+    }
+  ],
+  "interviewers": [
+    {
+      "id": 1,
+      "name": "Enquêteur 1",
+      "phone": "+242061111111",
+      "available": true,
+      "projects_count": 2
+    },
+    {
+      "id": 2,
+      "name": "Enquêteur 2",
+      "phone": "+242062222222",
+      "available": true,
+      "projects_count": 1
+    }
+  ]
+}
